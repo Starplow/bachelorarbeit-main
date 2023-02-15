@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
-public class PlaySpatialAudio : MonoBehaviour
+public class PlayObjectAudio : MonoBehaviour
 {
 
-
+    public AudioClip clip;
     Ray ray;
     public InputActionProperty selectInteraction;
     AudioSource source;
@@ -25,19 +25,26 @@ public class PlaySpatialAudio : MonoBehaviour
     void playAudioOnRayHit()
     {
 
-
+        float triggerDown = selectInteraction.action.ReadValue<float>();
         ray = new Ray(transform.position, transform.forward);
         RaycastHit hit;
-
-        if (Physics.Raycast(ray, out hit)) //wenn ein objekt getroffen wird
+        if(triggerDown == 1)
         {
-            if (source.isPlaying == false)
+            if (Physics.Raycast(ray, out hit)) //wenn ein objekt getroffen wird
             {
                 source = hit.collider.gameObject.GetComponent<AudioSource>();
-                source.Play();
 
+                if (source.isPlaying == false)
+                {
+                    
+                    Debug.Log("Getroffenes Objekt " + hit.collider.gameObject.name);
+                    source.PlayOneShot(clip);
+
+                }
             }
+
         }
+        
     }
 
 

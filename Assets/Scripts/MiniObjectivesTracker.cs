@@ -31,13 +31,13 @@ public class MiniObjectivesTracker : MonoBehaviour
     {
 
         firstObjective = GameObject.Find("Objective 1");
-        Debug.Log("ANDERE FARBE " + firstObjective.GetComponent<Renderer>().material.ToString());
-        Debug.Log("HIER DER FARBENNAME " + glowGreen);
+        //Debug.Log("ANDERE FARBE " + firstObjective.GetComponent<Renderer>().material.ToString());
+       // Debug.Log("HIER DER FARBENNAME " + glowGreen);
         
         if(firstObjective.GetComponent<Renderer>().material == glowGreen)
         {
 
-            Debug.Log("EIGENE FARBE "+ this.gameObject.GetComponent<Renderer>().material.name);
+           // Debug.Log("EIGENE FARBE "+ this.gameObject.GetComponent<Renderer>().material.name);
             this.gameObject.GetComponent<Renderer>().material = firstObjectiveDone;
 
         }

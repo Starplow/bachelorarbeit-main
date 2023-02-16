@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
-public class PlayDistancePing : MonoBehaviour
+public class playDistancePing : MonoBehaviour
 {
 
 

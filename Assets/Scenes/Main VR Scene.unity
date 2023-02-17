@@ -3130,9 +3130,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 763f1c7d711c90c4b98642a8d93991ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clip: {fileID: 0}
+  clip: {fileID: 8300000, guid: d856c9d972243574c9c5732461fdeb69, type: 3}
   selectInteraction:
-    m_UseReference: 0
+    m_UseReference: 1
     m_Action:
       m_Name: Select Interaction
       m_Type: 0
@@ -3142,7 +3142,8 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: 0}
+    m_Reference: {fileID: 83097790271614945, guid: c348712bda248c246b8c49b3db54643f,
+      type: 3}
 --- !u!114 &830366578
 MonoBehaviour:
   m_ObjectHideFlags: 0

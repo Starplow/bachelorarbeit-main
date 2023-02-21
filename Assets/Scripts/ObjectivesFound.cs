@@ -26,42 +26,37 @@ public class ObjectivesFound : MonoBehaviour
     private void OnTriggerEnter(Collider collision)
     {
 
+        //objective1.SetActive(false); //wenn der spieler ins erste Objective laeuft, deaktiviert es sich
 
-        objective1.SetActive(false); //wenn der spieler ins erste Objective laeuft, deaktiviert es sich
+        //Debug.Log(" Collided mit" + collision.gameObject.name); 
 
+        //Collision mit dem Spieler loest diese Funktion aus, welche nachschaut, welches Objective aktiv ist, dieses deaktiviert und das jeweils naechste aktiviert.
 
-
-        if(objective2.activeSelf == false)
+        if (objective1.activeSelf == true) 
         {
 
-
+            Debug.Log("Objective 2 ist nicht aktiv, und wir aktiv gesetzt");
+            objective1.SetActive(false);
             objective2.SetActive(true);
 
 
         }
-
-
-
-        if(objective3.activeSelf == false)
+        else if (objective2.activeSelf == true)
         {
+
             objective2.SetActive(false);
             objective3.SetActive(true);
 
 
         }
-
-
-
-
-        if(objective4.activeSelf == false)
+        else if (objective3.activeSelf == true)
         {
 
             objective3.SetActive(false);
             objective4.SetActive(true);
 
         }
-
-        if(objective4.activeSelf == true)
+        else if (objective4.activeSelf == true)
         {
 
             objective4.SetActive(false);
@@ -71,7 +66,7 @@ public class ObjectivesFound : MonoBehaviour
 
 
 
-        Debug.Log("kollision weewoo");
+        //Debug.Log("kollision weewoo");
         
 
     }

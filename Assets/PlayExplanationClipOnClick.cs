@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class PlayExplanationClipOnClick : MonoBehaviour
 {
@@ -38,8 +39,11 @@ public class PlayExplanationClipOnClick : MonoBehaviour
 
         yield return new WaitUntil(() => source.isPlaying == false);
 
-        
 
+        if (leftWall.activeSelf)
+        {
+            SceneManager.LoadScene("Main VR Scene");
+        }
 
         if (frontWall.activeSelf )
         {
@@ -50,8 +54,11 @@ public class PlayExplanationClipOnClick : MonoBehaviour
             leftWall.SetActive(true);
         }
 
-        tutorialObject.gameObject.SetActive(false);
+        
 
+
+        tutorialObject.gameObject.SetActive(false);
+        
         /*else if (leftWall.activeSelf)
         {
 

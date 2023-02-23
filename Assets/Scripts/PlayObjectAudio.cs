@@ -5,9 +5,8 @@ using UnityEngine.InputSystem;
 public class PlayObjectAudio : MonoBehaviour
 {
 
-    public AudioClip clipFront;
-    public AudioClip clipRight;
-    public AudioClip clipLeft;
+    //public AudioClip clip;
+    
 
     Ray ray;
 
@@ -44,7 +43,7 @@ public class PlayObjectAudio : MonoBehaviour
                 {
                     Debug.Log("Getroffenes Objekt " + hit.collider.gameObject.name);                                 
                                  
-                    source.PlayOneShot(clipFront);                                                        
+                    source.PlayOneShot(source.clip);                                                        
                     
                 }
             }

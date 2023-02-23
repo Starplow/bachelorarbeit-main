@@ -22,10 +22,9 @@ public class ObjectivesFound : MonoBehaviour
 
     }
 
-
-    private void OnTriggerEnter(Collider collision)
+    
+    private void OnTriggerEnter(Collider collider)
     {
-
         //objective1.SetActive(false); //wenn der spieler ins erste Objective laeuft, deaktiviert es sich
 
         //Debug.Log(" Collided mit" + collision.gameObject.name); 
@@ -38,6 +37,12 @@ public class ObjectivesFound : MonoBehaviour
             Debug.Log("Objective 2 ist nicht aktiv, und wir aktiv gesetzt");
             objective1.SetActive(false);
             objective2.SetActive(true);
+            var ping = collider.gameObject.GetComponentInChildren<playDistancePing>();
+            if(ping != null)
+            {
+                ping.enabled = true;
+            }
+            //collider.gameObject.GetComponentInChildren<playDistancePing>().enabled = true;
 
 
         }

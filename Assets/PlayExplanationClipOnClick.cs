@@ -17,6 +17,7 @@ public class PlayExplanationClipOnClick : MonoBehaviour
     AudioSource source;
 
     public TutorialWasPlayed tutorialObject;
+    public GameObject frontWall;
     public GameObject rightWall;
     public GameObject leftWall;
     // Start is called before the first frame update
@@ -36,17 +37,21 @@ public class PlayExplanationClipOnClick : MonoBehaviour
 
 
         yield return new WaitUntil(() => source.isPlaying == false);
-        tutorialObject.gameObject.SetActive(false);
+
+        
 
 
-        if (!rightWall.activeSelf)
+        if (frontWall.activeSelf )
         {
             rightWall.SetActive(true);
         }
-        else if(!leftWall.activeSelf)
+        else if(rightWall.activeSelf)
         {
             leftWall.SetActive(true);
         }
+
+        tutorialObject.gameObject.SetActive(false);
+
         /*else if (leftWall.activeSelf)
         {
 

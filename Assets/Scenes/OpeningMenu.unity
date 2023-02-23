@@ -1691,6 +1691,7 @@ MonoBehaviour:
     m_Reference: {fileID: 83097790271614945, guid: c348712bda248c246b8c49b3db54643f,
       type: 3}
   tutorialObject: {fileID: 0}
+  frontWall: {fileID: 840900313}
   rightWall: {fileID: 504096800}
   leftWall: {fileID: 254901796}
 --- !u!1 &840900313

@@ -16,8 +16,9 @@ public class PlayExplanationClipOnClick : MonoBehaviour
 
     AudioSource source;
 
-    public TutorialWasPlayed tutorialBool;
-
+    public TutorialWasPlayed tutorialObject;
+    public GameObject rightWall;
+    public GameObject leftWall;
     // Start is called before the first frame update
     void Start()
     {
@@ -30,7 +31,31 @@ public class PlayExplanationClipOnClick : MonoBehaviour
         playAudioOnRayHit();
     }
 
+    public IEnumerator WaitForSound(AudioClip sound)
+    {
 
+
+        yield return new WaitUntil(() => source.isPlaying == false);
+        tutorialObject.gameObject.SetActive(false);
+
+
+        if (!rightWall.activeSelf)
+        {
+            rightWall.SetActive(true);
+        }
+        else if(!leftWall.activeSelf)
+        {
+            leftWall.SetActive(true);
+        }
+        /*else if (leftWall.activeSelf)
+        {
+
+            leftWall.SetActive(false);
+
+        }*/
+        StopCoroutine(WaitForSound(sound));
+
+    }
     void playAudioOnRayHit()
     {
 
@@ -49,10 +74,57 @@ public class PlayExplanationClipOnClick : MonoBehaviour
 
                     if (hit.collider.gameObject.name == "FrontWall")
                     {
-                        tutorialBool = hit.collider.gameObject.GetComponent<TutorialWasPlayed>();
+                        tutorialObject = hit.collider.gameObject.GetComponent<TutorialWasPlayed>();
+
                         source.PlayOneShot(clipFront);
-                        tutorialBool.wasPlayed = true;
+
+                        tutorialObject.wasPlayed = true;
+
+                        StartCoroutine(WaitForSound(clipFront));
+
+                        /*if (!source.isPlaying)
+                        {
+                            tutorialObject.gameObject.SetActive(false);
+                            rightWall.SetActive(true);
+                        }*/
                     }
+                    if (hit.collider.gameObject.name == "RightWall")
+                    {
+
+                        tutorialObject = hit.collider.gameObject.GetComponent<TutorialWasPlayed>();
+
+                        source.PlayOneShot(clipRight);
+
+                        tutorialObject.wasPlayed = true;
+
+                        /*if (!source.isPlaying) 
+                        { 
+                            tutorialObject.gameObject.SetActive(false);
+                            leftWall.SetActive(true);
+                        }*/
+
+                        StartCoroutine(WaitForSound(clipRight));
+
+                    }
+                    if (hit.collider.gameObject.name == "LeftWall")
+                    {
+
+                        tutorialObject = hit.collider.gameObject.GetComponent<TutorialWasPlayed>();
+
+                        source.PlayOneShot(clipLeft);
+
+                        /*if (!source.isPlaying)
+                        {
+                            tutorialObject.wasPlayed = true;
+                            tutorialObject.gameObject.SetActive(false);
+                        }*/
+
+                        StartCoroutine(WaitForSound(clipLeft));
+
+                    }
+
+
+
 
 
 

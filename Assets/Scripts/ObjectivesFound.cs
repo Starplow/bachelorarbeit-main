@@ -48,6 +48,19 @@ public class ObjectivesFound : MonoBehaviour
         }
         else if (objective2.activeSelf == true)
         {
+            var ping = collider.gameObject.GetComponentInChildren<playDistancePing>();
+            if (ping != null)
+            {
+                ping.enabled = false;
+            }
+
+
+
+            var objectPing = collider.gameObject.GetComponentInChildren<PlayObjectAudio>();
+            if (objectPing != null)
+            {
+                objectPing.enabled = true;
+            }
 
             objective2.SetActive(false);
             objective3.SetActive(true);
@@ -56,6 +69,11 @@ public class ObjectivesFound : MonoBehaviour
         }
         else if (objective3.activeSelf == true)
         {
+            var ping = collider.gameObject.GetComponentInChildren<playDistancePing>();
+            if (ping != null)
+            {
+                ping.enabled = true;
+            }
 
             objective3.SetActive(false);
             objective4.SetActive(true);
@@ -78,6 +96,6 @@ public class ObjectivesFound : MonoBehaviour
 
       private void OnTriggerExit(Collider collision)
     {
-        Debug.Log("FIndet nimmer statt");
+        Debug.Log("FIndet nicht mehr statt");
     }
 }

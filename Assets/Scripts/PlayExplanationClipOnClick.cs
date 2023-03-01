@@ -125,6 +125,7 @@ public class PlayExplanationClipOnClick : MonoBehaviour
 
                         source.PlayOneShot(clipLeft);
 
+                        tutorialObject.wasPlayed = true;
                         /*if (!source.isPlaying)
                         {
                             tutorialObject.wasPlayed = true;

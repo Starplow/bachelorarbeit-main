@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731715, g: 0.13414735, b: 0.121078536, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -173,6 +173,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &4574058
 AudioSource:
@@ -395,6 +398,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &10955298
 AudioSource:
@@ -685,6 +691,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &50007442
 AudioSource:
@@ -922,6 +931,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &57480820
 AudioSource:
@@ -1159,6 +1171,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &88142021
 AudioSource:
@@ -1514,6 +1529,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &144343651
 AudioSource:
@@ -1751,6 +1769,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &156619887
 AudioSource:
@@ -1988,6 +2009,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &174189130
 AudioSource:
@@ -2250,6 +2274,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &187066000
 AudioSource:
@@ -2502,6 +2529,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &199169291
 AudioSource:
@@ -2739,6 +2769,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &219358953
 AudioSource:
@@ -2976,6 +3009,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &223057741
 AudioSource:
@@ -3213,6 +3249,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &241821011
 AudioSource:
@@ -3450,6 +3489,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &250820003
 AudioSource:
@@ -3736,6 +3778,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &266693783
 AudioSource:
@@ -3958,6 +4003,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &293426807
 AudioSource:
@@ -4255,6 +4303,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &341624944
 AudioSource:
@@ -4549,6 +4600,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &399477470
 AudioSource:
@@ -4786,6 +4840,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &403979870
 AudioSource:
@@ -5023,6 +5080,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &406172716
 AudioSource:
@@ -5627,6 +5687,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &441457462
 AudioSource:
@@ -5864,6 +5927,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &448872978
 AudioSource:
@@ -6136,6 +6202,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &465259004
 AudioSource:
@@ -6358,6 +6427,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &469957214
 AudioSource:
@@ -6610,6 +6682,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &502824995
 AudioSource:
@@ -6832,6 +6907,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &510791426
 AudioSource:
@@ -7084,6 +7162,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &513968502
 AudioSource:
@@ -7321,6 +7402,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &537057520
 AudioSource:
@@ -7558,6 +7642,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &554417303
 AudioSource:
@@ -7801,6 +7888,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &555430907
 AudioSource:
@@ -8038,6 +8128,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &573317480
 AudioSource:
@@ -8321,6 +8414,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &585408865
 AudioSource:
@@ -8558,6 +8654,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &596816483
 AudioSource:
@@ -8795,6 +8894,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &598466561
 AudioSource:
@@ -9032,6 +9134,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &616719468
 AudioSource:
@@ -9269,6 +9374,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &658088370
 AudioSource:
@@ -9506,6 +9614,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &681202697
 AudioSource:
@@ -9743,6 +9854,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &685094580
 AudioSource:
@@ -9980,6 +10094,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &696870726
 AudioSource:
@@ -10217,6 +10334,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &729764174
 AudioSource:
@@ -10454,6 +10574,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &740542514
 AudioSource:
@@ -10691,6 +10814,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &753485890
 AudioSource:
@@ -10928,6 +11054,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &758569411
 AudioSource:
@@ -11165,6 +11294,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &764121734
 AudioSource:
@@ -11402,6 +11534,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &769831040
 AudioSource:
@@ -11639,6 +11774,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &771434522
 AudioSource:
@@ -11876,6 +12014,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &778862576
 AudioSource:
@@ -12113,6 +12254,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &780272174
 AudioSource:
@@ -12350,6 +12494,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &781360742
 AudioSource:
@@ -12572,6 +12719,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &801545788
 AudioSource:
@@ -13341,6 +13491,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &835909944
 AudioSource:
@@ -13578,6 +13731,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &839578151
 AudioSource:
@@ -13815,6 +13971,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &855999360
 AudioSource:
@@ -14052,6 +14211,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &868188348
 AudioSource:
@@ -14289,6 +14451,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &887302951
 AudioSource:
@@ -14561,6 +14726,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &922942072
 AudioSource:
@@ -14867,6 +15035,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &975726822
 AudioSource:
@@ -15104,6 +15275,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &976322504
 AudioSource:
@@ -15788,6 +15962,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &995155497
 AudioSource:
@@ -16193,7 +16370,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 8300000, guid: cdf2f52973cc1534fa12982230c229a8, type: 3}
-  gameFinished: {fileID: 0}
+  firstObjectiveClip: {fileID: 8300000, guid: ffa4dc83699aa3e46b792f42bcb91b29, type: 3}
+  secondObjectiveClip: {fileID: 8300000, guid: 1e3b70cb7cd36f744be1b49d5f5f44d1, type: 3}
+  thirdObjectiveClip: {fileID: 8300000, guid: d1727441a889d62458a3624395172840, type: 3}
+  gameFinished: {fileID: 8300000, guid: 3049e705b972b444aa158c007cd1ac60, type: 3}
 --- !u!82 &999246843
 AudioSource:
   m_ObjectHideFlags: 0
@@ -16360,6 +16540,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &1007926456
 AudioSource:
@@ -16612,6 +16795,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &1009031284
 AudioSource:
@@ -16834,6 +17020,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &1109199502
 AudioSource:
@@ -17071,6 +17260,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &1110309109
 AudioSource:
@@ -17323,6 +17515,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &1121837822
 AudioSource:
@@ -17598,6 +17793,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &1131679598
 AudioSource:
@@ -18420,6 +18618,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &1135044645
 AudioSource:
@@ -18642,6 +18843,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &1136611524
 AudioSource:
@@ -18994,6 +19198,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &1162088484
 AudioSource:
@@ -19314,6 +19521,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &1184131605
 AudioSource:
@@ -19551,6 +19761,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &1200397850
 AudioSource:
@@ -19788,6 +20001,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &1206399251
 AudioSource:
@@ -20025,6 +20241,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &1211096107
 AudioSource:
@@ -20247,6 +20466,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &1238660131
 AudioSource:
@@ -20866,6 +21088,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &1251982571
 AudioSource:
@@ -21088,6 +21313,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &1255210590
 AudioSource:
@@ -21340,6 +21568,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &1268450391
 AudioSource:
@@ -21577,6 +21808,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &1271650881
 AudioSource:
@@ -21814,6 +22048,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &1278805231
 AudioSource:
@@ -22051,6 +22288,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &1300242975
 AudioSource:
@@ -22288,6 +22528,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &1317084629
 AudioSource:
@@ -22525,6 +22768,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &1325286151
 AudioSource:
@@ -23074,11 +23320,11 @@ MonoBehaviour:
   objective2: {fileID: 412614060}
   objective3: {fileID: 2124202364}
   objective4: {fileID: 1241683460}
-  auftauchWand1: {fileID: 0}
-  auftauchWand2: {fileID: 0}
-  auftauchWand3: {fileID: 0}
-  verschwindeWand1: {fileID: 0}
-  verschwindeWoodWand1: {fileID: 0}
+  auftauchWand1: {fileID: 1743561756}
+  auftauchWand2: {fileID: 2137159514}
+  auftauchWand3: {fileID: 1136611522}
+  verschwindeWand1: {fileID: 1827424468}
+  verschwindeWoodWand1: {fileID: 293426805}
   finishedClip: {fileID: 0}
 --- !u!114 &1331512556
 MonoBehaviour:
@@ -23143,6 +23389,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &1335909546
 AudioSource:
@@ -23380,6 +23629,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &1342093570
 AudioSource:
@@ -23617,6 +23869,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &1376531870
 AudioSource:
@@ -23887,6 +24142,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &1385668000
 AudioSource:
@@ -24237,6 +24495,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &1407304818
 AudioSource:
@@ -24474,6 +24735,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &1458950471
 AudioSource:
@@ -24711,6 +24975,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &1461904638
 AudioSource:
@@ -24948,6 +25215,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &1467046660
 AudioSource:
@@ -25185,6 +25455,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &1469264159
 AudioSource:
@@ -25643,6 +25916,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &1519509267
 AudioSource:
@@ -25966,6 +26242,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &1560668650
 AudioSource:
@@ -26203,6 +26482,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &1561770479
 AudioSource:
@@ -26440,6 +26722,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &1569896660
 AudioSource:
@@ -27262,6 +27547,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &1584875149
 AudioSource:
@@ -27499,6 +27787,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &1614879004
 AudioSource:
@@ -27736,6 +28027,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &1623115262
 AudioSource:
@@ -27973,6 +28267,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &1625146433
 AudioSource:
@@ -28210,6 +28507,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &1679755611
 AudioSource:
@@ -28447,6 +28747,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &1692447750
 AudioSource:
@@ -29269,6 +29572,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &1729217267
 AudioSource:
@@ -29506,6 +29812,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &1736879381
 AudioSource:
@@ -29728,6 +30037,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &1740101977
 AudioSource:
@@ -29965,6 +30277,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &1743561758
 AudioSource:
@@ -30202,6 +30517,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &1753450403
 AudioSource:
@@ -30454,6 +30772,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &1754224232
 AudioSource:
@@ -30691,6 +31012,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &1757877922
 AudioSource:
@@ -30928,6 +31252,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &1760212162
 AudioSource:
@@ -31165,6 +31492,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &1763035872
 AudioSource:
@@ -31402,6 +31732,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &1763171415
 AudioSource:
@@ -31639,6 +31972,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &1765420720
 AudioSource:
@@ -31861,6 +32197,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &1782068075
 AudioSource:
@@ -32931,6 +33270,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &1816475751
 AudioSource:
@@ -33153,6 +33495,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &1827424470
 AudioSource:
@@ -33405,6 +33750,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &1834600404
 AudioSource:
@@ -33642,6 +33990,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &1850489686
 AudioSource:
@@ -33879,6 +34230,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &1863361975
 AudioSource:
@@ -34116,6 +34470,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &1867135347
 AudioSource:
@@ -34353,6 +34710,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &1875829967
 AudioSource:
@@ -34590,6 +34950,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &1911527981
 AudioSource:
@@ -34827,6 +35190,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &1932859928
 AudioSource:
@@ -35049,6 +35415,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &1938438597
 AudioSource:
@@ -35301,6 +35670,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &1943655685
 AudioSource:
@@ -35538,6 +35910,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &1944877680
 AudioSource:
@@ -35775,6 +36150,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &1960069737
 AudioSource:
@@ -36047,6 +36425,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &1986947260
 AudioSource:
@@ -36269,6 +36650,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &2006971949
 AudioSource:
@@ -36521,6 +36905,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &2017049703
 AudioSource:
@@ -36743,6 +37130,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &2023321378
 AudioSource:
@@ -36980,6 +37370,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &2047341616
 AudioSource:
@@ -37217,6 +37610,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &2069027310
 AudioSource:
@@ -37588,6 +37984,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &2078114597
 AudioSource:
@@ -37825,6 +38224,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &2086483358
 AudioSource:
@@ -38414,6 +38816,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &2136193221
 AudioSource:
@@ -38651,6 +39056,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b31c953c0134aee4287e5e86e6a9fde9, type: 3}
   clipWood: {fileID: 0}
+  firstObjectiveClip: {fileID: 0}
+  secondObjectiveClip: {fileID: 0}
+  thirdObjectiveClip: {fileID: 0}
   gameFinished: {fileID: 0}
 --- !u!82 &2137159516
 AudioSource:

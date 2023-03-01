@@ -7,6 +7,12 @@ public class PlayerCollisionSound : MonoBehaviour
 
     public AudioClip clip;
     public AudioClip clipWood;
+
+
+
+    public AudioClip firstObjectiveClip;
+    public AudioClip secondObjectiveClip;
+    public AudioClip thirdObjectiveClip;
     public AudioClip gameFinished;
     // Start is called before the first frame update
     void Start()
@@ -47,6 +53,28 @@ public class PlayerCollisionSound : MonoBehaviour
             }
 
         }
+        if(hit.gameObject.tag == "FirstObjective")
+        {
+            if (!source.isPlaying)
+            {
+                source.PlayOneShot(firstObjectiveClip);
+            }
+        }
+        if (hit.gameObject.tag == "SecondObjective")
+        {
+            if (!source.isPlaying)
+            {
+                source.PlayOneShot(secondObjectiveClip);
+            }
+        }
+        if (hit.gameObject.tag == "ThirdObjective")
+        {
+            if (!source.isPlaying)
+            {
+                source.PlayOneShot(thirdObjectiveClip);
+            }
+        }
+
 
         if (hit.gameObject.tag == "LastObjective")
         {

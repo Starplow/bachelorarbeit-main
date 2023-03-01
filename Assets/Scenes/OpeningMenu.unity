@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1522,7 +1522,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: a640e715ed0dad542a1f4ae07972591b, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.514
   m_Pitch: 1
@@ -1671,9 +1671,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c29b3f2ed0c6b4a428697eb9d84cb60a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clipFront: {fileID: 8300000, guid: bd7ab7d8912053740ab40e517cd361ba, type: 3}
-  clipRight: {fileID: 8300000, guid: 21dd07ee959330648899f8cb5e8ebadb, type: 3}
-  clipLeft: {fileID: 8300000, guid: 7cdcafc64e38c0c44833bb2f41990bee, type: 3}
+  clipFront: {fileID: 8300000, guid: 040bd68354349834eb7bbca01fa7e697, type: 3}
+  clipRight: {fileID: 8300000, guid: d3c51c0381fa2b14186dfa4ff61ef8d6, type: 3}
+  clipLeft: {fileID: 8300000, guid: d30720612cec18b4fb32d81610aa8b15, type: 3}
   selectInteraction:
     m_UseReference: 1
     m_Action:

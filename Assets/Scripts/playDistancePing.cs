@@ -47,10 +47,13 @@ public class playDistancePing : MonoBehaviour
                 {
                     float newPitch = 1 - ((hit.distance / 15) - 1); //Formel zum aendern des Pitches
                     //source.pitch =   / hit.distance;
-                    if (newPitch < 0.7f) // clamp damit es nicht allzu langgezogen wird
+
+
+                    if (newPitch < 0.3f) // clamp damit es nicht allzu langgezogen wird
                     {
-                        source.pitch = 0.7f;
+                        source.pitch = 0.3f;
                     }
+                    /*
                     else if (newPitch > 1.3f)
                     {
                         source.pitch = 1.3f;
@@ -59,6 +62,8 @@ public class playDistancePing : MonoBehaviour
                     {
                         source.pitch = newPitch;
                     }
+                    */
+                    source.pitch = newPitch;
                     Debug.Log("Pitch " + source.pitch);
                     source.PlayOneShot(clip);
                 }

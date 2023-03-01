@@ -11,8 +11,13 @@ public class ObjectivesFound : MonoBehaviour
     public GameObject objective4;
 
 
+    public GameObject auftauchWand1;
+    public GameObject auftauchWand2;
+    public GameObject auftauchWand3;
+    public GameObject verschwindeWand1;
+    public GameObject verschwindeWoodWand1;
 
-
+    public AudioClip finishedClip;
     // Update is called once per frame
 
     private void Update()
@@ -37,6 +42,8 @@ public class ObjectivesFound : MonoBehaviour
             Debug.Log("Objective 2 ist nicht aktiv, und wir aktiv gesetzt");
             objective1.SetActive(false);
             objective2.SetActive(true);
+            //GameObject auftauchWand = GameObject.FindByName("AuftauchWall_1");
+            auftauchWand1.SetActive(true);
             var ping = collider.gameObject.GetComponentInChildren<playDistancePing>();
             if(ping != null)
             {
@@ -66,6 +73,9 @@ public class ObjectivesFound : MonoBehaviour
             objective3.SetActive(true);
 
 
+            verschwindeWand1.SetActive(false);
+            auftauchWand2.SetActive(true);
+
         }
         else if (objective3.activeSelf == true)
         {
@@ -78,24 +88,32 @@ public class ObjectivesFound : MonoBehaviour
             objective3.SetActive(false);
             objective4.SetActive(true);
 
+            verschwindeWoodWand1.SetActive(false);
+            auftauchWand3.SetActive(true);
+
+
         }
         else if (objective4.activeSelf == true)
         {
 
             objective4.SetActive(false);
 
+
+            // Hier wincondition einfuegen, wie sieht die aus? Gesprochener Text? 
+
+
         }
 
 
 
 
-        //Debug.Log("kollision weewoo");
+        
         
 
     }
 
       private void OnTriggerExit(Collider collision)
     {
-        Debug.Log("FIndet nicht mehr statt");
+        Debug.Log("Findet nicht mehr statt");
     }
 }

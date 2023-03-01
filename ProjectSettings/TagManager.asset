@@ -10,6 +10,9 @@ TagManager:
   - Wall
   - WoodWall
   - LastObjective
+  - FirstObjective
+  - SecondObjective
+  - ThirdObjective
   layers:
   - Default
   - TransparentFX

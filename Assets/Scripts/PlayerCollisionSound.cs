@@ -30,14 +30,14 @@ public class PlayerCollisionSound : MonoBehaviour
     {
         AudioSource source = gameObject.GetComponent<AudioSource>();
 
-        Debug.Log("Collision sollte mit spieler passieren " + hit.gameObject.name);
-
+        //Debug.Log("Collision sollte mit spieler passieren " + hit.gameObject.name);
+        Debug.Log("Collision sollte mit spieler passieren " + hit.gameObject.tag);
         if (hit.gameObject.tag == "Wall") 
         {
-            Debug.Log("Erkennt spieler");
+            //Debug.Log("Erkennt spieler");
             if (!source.isPlaying)
             {
-
+                Debug.Log("hat stein beruehrt");
                 source.PlayOneShot(clip);
             }
             
@@ -47,7 +47,7 @@ public class PlayerCollisionSound : MonoBehaviour
         {
             if (!source.isPlaying)
             {
-
+                Debug.Log("hat holz beruehrt");
                 source.PlayOneShot(clipWood);
 
             }
@@ -55,9 +55,11 @@ public class PlayerCollisionSound : MonoBehaviour
         }
         if(hit.gameObject.tag == "FirstObjective")
         {
+            Debug.Log("Erstes Voiceover wird abgespielt");
             if (!source.isPlaying)
             {
                 source.PlayOneShot(firstObjectiveClip);
+                Debug.Log("Erstes Voiceover wird abgespielt in der if !sourceplaying");
             }
         }
         if (hit.gameObject.tag == "SecondObjective")

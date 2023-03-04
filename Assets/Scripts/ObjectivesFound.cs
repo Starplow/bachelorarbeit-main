@@ -15,8 +15,15 @@ public class ObjectivesFound : MonoBehaviour
     public GameObject auftauchWand2;
     public GameObject auftauchWand3;
     public GameObject verschwindeWand1;
+    public GameObject verschwindeWand0;
     public GameObject verschwindeWoodWand1;
 
+
+    public GameObject playerObject;
+
+    public AudioClip firstObjectiveClip;
+    public AudioClip secondObjectiveClip;
+    public AudioClip thirdObjectiveClip;
     public AudioClip finishedClip;
     // Update is called once per frame
 
@@ -42,6 +49,11 @@ public class ObjectivesFound : MonoBehaviour
             Debug.Log("Objective 2 ist nicht aktiv, und wir aktiv gesetzt");
             objective1.SetActive(false);
             objective2.SetActive(true);
+            verschwindeWand0.SetActive(false);
+            AudioSource playerAudio = playerObject.GetComponent<AudioSource>();
+
+            playerAudio.PlayOneShot(firstObjectiveClip);
+
             //GameObject auftauchWand = GameObject.FindByName("AuftauchWall_1");
             auftauchWand1.SetActive(true);
             var ping = collider.gameObject.GetComponentInChildren<playDistancePing>();
@@ -71,7 +83,9 @@ public class ObjectivesFound : MonoBehaviour
 
             objective2.SetActive(false);
             objective3.SetActive(true);
+            AudioSource playerAudio = playerObject.GetComponent<AudioSource>();
 
+            playerAudio.PlayOneShot(secondObjectiveClip);
 
             verschwindeWand1.SetActive(false);
             auftauchWand2.SetActive(true);
@@ -87,6 +101,9 @@ public class ObjectivesFound : MonoBehaviour
 
             objective3.SetActive(false);
             objective4.SetActive(true);
+            AudioSource playerAudio = playerObject.GetComponent<AudioSource>();
+
+            playerAudio.PlayOneShot(thirdObjectiveClip);
 
             verschwindeWoodWand1.SetActive(false);
             auftauchWand3.SetActive(true);
@@ -98,6 +115,9 @@ public class ObjectivesFound : MonoBehaviour
 
             objective4.SetActive(false);
 
+            AudioSource playerAudio = playerObject.GetComponent<AudioSource>();
+
+            playerAudio.PlayOneShot(finishedClip);
 
             // Hier wincondition einfuegen, wie sieht die aus? Gesprochener Text? 
 

@@ -5572,9 +5572,9 @@ MonoBehaviour:
   verschwindeWand0: {fileID: 887325962}
   verschwindeWoodWand1: {fileID: 293426805}
   playerObject: {fileID: 999246833}
-  firstObjectiveClip: {fileID: 8300000, guid: ffa4dc83699aa3e46b792f42bcb91b29, type: 3}
-  secondObjectiveClip: {fileID: 8300000, guid: 1e3b70cb7cd36f744be1b49d5f5f44d1, type: 3}
-  thirdObjectiveClip: {fileID: 8300000, guid: d1727441a889d62458a3624395172840, type: 3}
+  firstObjectiveClip: {fileID: 8300000, guid: 9154c3efc8d27e347bd83ce369bcf630, type: 3}
+  secondObjectiveClip: {fileID: 8300000, guid: b820b096c9aefa6499f4239d77f10c57, type: 3}
+  thirdObjectiveClip: {fileID: 8300000, guid: d2cc97743b1e7d4438fd89911b7f4139, type: 3}
   finishedClip: {fileID: 8300000, guid: 3049e705b972b444aa158c007cd1ac60, type: 3}
 --- !u!136 &412614063
 CapsuleCollider:
@@ -5597,7 +5597,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 412614060}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: cb814d9b4e7940448a4b22f40b33f6d6, type: 3}
@@ -20737,9 +20737,9 @@ MonoBehaviour:
   verschwindeWand0: {fileID: 887325962}
   verschwindeWoodWand1: {fileID: 293426805}
   playerObject: {fileID: 999246833}
-  firstObjectiveClip: {fileID: 8300000, guid: ffa4dc83699aa3e46b792f42bcb91b29, type: 3}
-  secondObjectiveClip: {fileID: 8300000, guid: 1e3b70cb7cd36f744be1b49d5f5f44d1, type: 3}
-  thirdObjectiveClip: {fileID: 8300000, guid: d1727441a889d62458a3624395172840, type: 3}
+  firstObjectiveClip: {fileID: 8300000, guid: 9154c3efc8d27e347bd83ce369bcf630, type: 3}
+  secondObjectiveClip: {fileID: 8300000, guid: b820b096c9aefa6499f4239d77f10c57, type: 3}
+  thirdObjectiveClip: {fileID: 8300000, guid: d2cc97743b1e7d4438fd89911b7f4139, type: 3}
   finishedClip: {fileID: 8300000, guid: 3049e705b972b444aa158c007cd1ac60, type: 3}
 --- !u!136 &1241683463
 CapsuleCollider:
@@ -23337,9 +23337,9 @@ MonoBehaviour:
   verschwindeWand0: {fileID: 887325962}
   verschwindeWoodWand1: {fileID: 293426805}
   playerObject: {fileID: 999246833}
-  firstObjectiveClip: {fileID: 8300000, guid: ffa4dc83699aa3e46b792f42bcb91b29, type: 3}
-  secondObjectiveClip: {fileID: 8300000, guid: 1e3b70cb7cd36f744be1b49d5f5f44d1, type: 3}
-  thirdObjectiveClip: {fileID: 8300000, guid: d1727441a889d62458a3624395172840, type: 3}
+  firstObjectiveClip: {fileID: 8300000, guid: 9154c3efc8d27e347bd83ce369bcf630, type: 3}
+  secondObjectiveClip: {fileID: 8300000, guid: b820b096c9aefa6499f4239d77f10c57, type: 3}
+  thirdObjectiveClip: {fileID: 8300000, guid: d2cc97743b1e7d4438fd89911b7f4139, type: 3}
   finishedClip: {fileID: 8300000, guid: 3049e705b972b444aa158c007cd1ac60, type: 3}
 --- !u!114 &1331512556
 MonoBehaviour:
@@ -38508,9 +38508,9 @@ MonoBehaviour:
   verschwindeWand0: {fileID: 887325962}
   verschwindeWoodWand1: {fileID: 293426805}
   playerObject: {fileID: 999246833}
-  firstObjectiveClip: {fileID: 8300000, guid: ffa4dc83699aa3e46b792f42bcb91b29, type: 3}
-  secondObjectiveClip: {fileID: 8300000, guid: 1e3b70cb7cd36f744be1b49d5f5f44d1, type: 3}
-  thirdObjectiveClip: {fileID: 8300000, guid: d1727441a889d62458a3624395172840, type: 3}
+  firstObjectiveClip: {fileID: 8300000, guid: 9154c3efc8d27e347bd83ce369bcf630, type: 3}
+  secondObjectiveClip: {fileID: 8300000, guid: b820b096c9aefa6499f4239d77f10c57, type: 3}
+  thirdObjectiveClip: {fileID: 8300000, guid: d2cc97743b1e7d4438fd89911b7f4139, type: 3}
   finishedClip: {fileID: 8300000, guid: 3049e705b972b444aa158c007cd1ac60, type: 3}
 --- !u!136 &2124202367
 CapsuleCollider:

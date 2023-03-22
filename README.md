@@ -7,6 +7,7 @@ Wenn man das Projekt ausprobieren möchte, muss man:
 
 Aus Hardwaresicht braucht man
 - HTC VIVE
+
 Als Softwareversionen braucht man
 - Unity Version 2021.3.18f1
 - IDE Visual Studio 2019 
